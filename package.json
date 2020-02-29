@@ -1,0 +1,28 @@
+{
+  "name": "node-red-contrib-metadata",
+  "version": "1.0.0",
+  "description": "A node that can retrieve the metadata of the provided URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"keywords": ["node-red", "metadata", "parser"],
+  "author": "Jean-Baptiste Richardet <jeanbaptiste.richardet@gmail.com> (https://github.com/JbIPS)",
+  "license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JbIPS/node-red-contrib-metadata.git"
+	},
+	"issue": "https://github.com/JbIPS/node-red-contrib-metadata/issues",
+	"homepage": "https://github.com/JbIPS/node-red-contrib-metadata#readme",
+  "node-red": {
+    "nodes": {
+      "metadata-parser": "index.js"
+    }
+  },
+  "dependencies": {
+    "domino": "^2.1.4",
+    "node-fetch": "^2.6.0",
+    "page-metadata-parser": "^1.1.4"
+  }
+}
